@@ -26,13 +26,13 @@ export default function Header({}: Props) {
           <div className="relative flex w-full flex-wrap items-stretch">
             <input
               type="search"
-              className="relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-l border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none "
-              placeholder="Search"
+              className="relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-l-full border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none "
+              placeholder="Tìm kiếm ...."
               aria-label="Search"
               aria-describedby="button-addon1"
             />
             <button
-              className="relative z-[2] flex items-center rounded-r bg-gradient-to-r from-[#fec5c5] to-[#97a0f6] px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white marker:shadow-md transition duration-150 ease-in-out hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg"
+              className="relative z-[2] flex items-center rounded-r-full bg-gradient-to-r from-[#fec5c5] to-[#97a0f6] px-6 py-2.5 text-lg font-medium uppercase leading-tight text-slate-800  marker:shadow-md transition duration-150 ease-in-out hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg"
               type="button"
               id="button-addon1"
               data-te-ripple-init=""
@@ -60,10 +60,10 @@ export default function Header({}: Props) {
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
             onClick={handleClick}
-            className="bg-gradient-to-r from-[#facece] to-[#cacff9] text-black p-2"
+            className="bg-gradient-to-r from-[#facece] to-[#cacff9] text-slate-800 px-3 py-2 capitalize rounded-xl"
           >
-            <DehazeIcon className="mr-1" />
-            Category
+            <DehazeIcon className="mr-1 text-lg" />
+            Danh sách
           </Button>
           <Menu
             id="basic-menu"
@@ -84,19 +84,18 @@ export default function Header({}: Props) {
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
             onClick={handleClick}
-            className=" bg-gradient-to-r from-[#facece] to-[#cacff9] text-black mx-3 p-2"
+            className=" bg-gradient-to-r from-[#facece] to-[#cacff9] text-slate-800 mx-3 px-3 py-2 capitalize rounded-xl"
           >
             Việt Nam
-            <ExpandMoreIcon />
+            <ExpandMoreIcon className="text-lg" />
           </Button>
-
           <Button
             id="basic-button"
             aria-controls={open ? "basic-menu" : undefined}
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
             onClick={handleClick}
-            className="bg-gradient-to-r from-[#facece] to-[#cacff9] text-black p-2"
+            className="bg-gradient-to-r from-[#facece] to-[#cacff9] text-slate-800 px-3 py-2 capitalize rounded-xl"
           >
             Hoàng Văn Sơn
           </Button>

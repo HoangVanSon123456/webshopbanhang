@@ -20,13 +20,6 @@ export default function Home() {
     {
       url: "https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80",
     },
-
-    {
-      url: "https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80",
-    },
-    {
-      url: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80",
-    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -54,12 +47,12 @@ export default function Home() {
           className="w-full h-[416px] rounded-2xl bg-center bg-cover duration-500"
         ></div>
         {/* Left Arrow */}
-        <div className="hidden group-hover:block absolute -mt-60 -translate-x-0 left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-          <ChevronLeftIcon onClick={prevSlide} />
+        <div className="hidden group-hover:block absolute -mt-60 -translate-x-0 left-5 text-2xl rounded-full p-1 bg-black/20 text-white cursor-pointer">
+          <ChevronLeftIcon onClick={prevSlide} className="-mt-1" />
         </div>
         {/* Right Arrow */}
         <div className="hidden group-hover:block absolute -mt-60 -translate-x-0 right-5 text-2xl rounded-full p-1 bg-black/20 text-white cursor-pointer">
-          <ChevronRightIcon onClick={nextSlide} />
+          <ChevronRightIcon onClick={nextSlide} className="-mt-1" />
         </div>
         <div className="flex top-4 justify-center py-2">
           {slides.map((slide, slideIndex) => (
@@ -113,7 +106,7 @@ export default function Home() {
             <span className="text-lg ml-5">Smartfonlar</span>
           </div>
         </div>
-        <div className="mt-5 w-full text-center p-2 bg-white rounded-md hover:bg-slate-100">
+        <div className="mt-5 w-full text-center p-2 bg-white rounded-md hover:bg-blue-100">
           <button>Batafsil</button>
         </div>
       </div>
@@ -144,10 +137,12 @@ export default function Home() {
               </span>
             </div>
             <div>
-              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+              <button className="bg-[#0D63F3] py-2 px-5 rounded-lg text-white">
                 Sotib olish
               </button>
-              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+              <ShoppingCartOutlinedIcon
+                style={{ marginLeft: "40px", color: "#6a6e6e" }}
+              />
             </div>
           </div>
           <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
@@ -172,10 +167,12 @@ export default function Home() {
               </span>
             </div>
             <div>
-              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+              <button className="bg-[#0D63F3] py-2 px-5 rounded-lg text-white">
                 Sotib olish
               </button>
-              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+              <ShoppingCartOutlinedIcon
+                style={{ marginLeft: "40px", color: "#6a6e6e" }}
+              />
             </div>
           </div>
           <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
@@ -200,10 +197,12 @@ export default function Home() {
               </span>
             </div>
             <div>
-              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+              <button className="bg-[#0D63F3] py-2 px-5 rounded-lg text-white">
                 Sotib olish
               </button>
-              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+              <ShoppingCartOutlinedIcon
+                style={{ marginLeft: "40px", color: "#6a6e6e" }}
+              />{" "}
             </div>
           </div>
           <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
@@ -228,10 +227,12 @@ export default function Home() {
               </span>
             </div>
             <div>
-              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+              <button className="bg-[#0D63F3] py-2 px-5 rounded-lg text-white">
                 Sotib olish
               </button>
-              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+              <ShoppingCartOutlinedIcon
+                style={{ marginLeft: "40px", color: "#6a6e6e" }}
+              />{" "}
             </div>
           </div>
           <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
@@ -256,10 +257,12 @@ export default function Home() {
               </span>
             </div>
             <div>
-              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+              <button className="bg-[#0D63F3] py-2 px-5 rounded-lg text-white">
                 Sotib olish
               </button>
-              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+              <ShoppingCartOutlinedIcon
+                style={{ marginLeft: "40px", color: "#6a6e6e" }}
+              />{" "}
             </div>
           </div>
           <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
@@ -284,10 +287,12 @@ export default function Home() {
               </span>
             </div>
             <div>
-              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+              <button className="bg-[#0D63F3] py-2 px-5 rounded-lg text-white">
                 Sotib olish
               </button>
-              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+              <ShoppingCartOutlinedIcon
+                style={{ marginLeft: "40px", color: "#6a6e6e" }}
+              />{" "}
             </div>
           </div>
           <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
@@ -312,10 +317,12 @@ export default function Home() {
               </span>
             </div>
             <div>
-              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+              <button className="bg-[#0D63F3] py-2 px-5 rounded-lg text-white">
                 Sotib olish
               </button>
-              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+              <ShoppingCartOutlinedIcon
+                style={{ marginLeft: "40px", color: "#6a6e6e" }}
+              />
             </div>
           </div>
           <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
@@ -340,10 +347,12 @@ export default function Home() {
               </span>
             </div>
             <div>
-              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+              <button className="bg-[#0D63F3] py-2 px-5 rounded-lg text-white">
                 Sotib olish
               </button>
-              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+              <ShoppingCartOutlinedIcon
+                style={{ marginLeft: "40px", color: "#6a6e6e" }}
+              />{" "}
             </div>
           </div>
           <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
@@ -368,10 +377,12 @@ export default function Home() {
               </span>
             </div>
             <div>
-              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+              <button className="bg-[#0D63F3] py-2 px-5 rounded-lg text-white">
                 Sotib olish
               </button>
-              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+              <ShoppingCartOutlinedIcon
+                style={{ marginLeft: "40px", color: "#6a6e6e" }}
+              />{" "}
             </div>
           </div>
           <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
@@ -396,14 +407,16 @@ export default function Home() {
               </span>
             </div>
             <div>
-              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+              <button className="bg-[#0D63F3] py-2 px-5 rounded-lg text-white">
                 Sotib olish
               </button>
-              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+              <ShoppingCartOutlinedIcon
+                style={{ marginLeft: "40px", color: "#6a6e6e" }}
+              />
             </div>
           </div>
         </div>
-        <div className="mt-5 w-full text-center p-2 bg-white rounded-md hover:bg-slate-100">
+        <div className="mt-5 w-full text-center p-2 bg-white rounded-md hover:bg-blue-100">
           <button>Ko’proq ko’rish</button>
         </div>
       </div>
