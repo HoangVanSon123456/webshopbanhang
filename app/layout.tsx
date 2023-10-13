@@ -24,7 +24,7 @@ export default function RootLayout({
             <Header />
           </div>
           <div className="">{children}</div>
-          <div className="h-[450px] bg-gradient-to-r from-[#fad2d2] to-[#d2d6f8] text-black">
+          <div className="bg-gradient-to-r from-[#fad2d2] to-[#d2d6f8] text-black">
             <Footer />
           </div>
         </div>

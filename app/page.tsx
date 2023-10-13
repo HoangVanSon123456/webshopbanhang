@@ -3,6 +3,9 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 import ItemPhone from "../public/images/image 6.png";
+import ItemLaptop from "../public/images/image 15.png";
+import ItemTrademark from "../public/images/image (1).png";
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -76,7 +79,7 @@ export default function Home() {
         <div className="mb-3">
           <span className="text-xl font-semibold">Kategoriyalar</span>
         </div>
-        <div className="flex justify-center flex-wrap gap-5">
+        <div className="flex justify-center flex-wrap gap-x-5">
           <div className="pt-4 pb-7 px-1 bg-white rounded-lg">
             <Image src={ItemPhone} alt="" />
             <span className="text-lg ml-5">Smartfonlar</span>
@@ -118,50 +121,315 @@ export default function Home() {
         <div className="mb-3">
           <span className="text-xl font-semibold">Eng ommabop</span>
         </div>
-        <div className="flex justify-center flex-wrap gap-5">
-          <div className="pt-4 pb-7 px-1 bg-white rounded-lg">
-            <Image src={ItemPhone} alt="" />
-            <span className="text-lg ml-5">Smartfonlar</span>
+        <div className="flex justify-center flex-wrap gap-8">
+          <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
+            <Image src={ItemLaptop} alt="" />
+            <div className="">
+              <span className="text-lg text-blue-500">299 000 so’m</span>
+            </div>
+            <div className="mb-3">
+              <div>
+                <span className="text-sm break-words">Apple Airpods Pro</span>
+              </div>
+              <div>
+                <span className="text-sm break-words">
+                  simsiz quloqchin , Oq rangda
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-5">
+              <span className="text-sm py-3 text-gray-400">
+                1230 ta buyurtma
+              </span>
+            </div>
+            <div>
+              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+                Sotib olish
+              </button>
+              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+            </div>
           </div>
-          <div className="pt-4 pb-7 px-1 bg-white rounded-lg">
-            <Image src={ItemPhone} alt="" />
-            <span className="text-lg ml-5">Smartfonlar</span>
+          <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
+            <Image src={ItemLaptop} alt="" />
+            <div className="">
+              <span className="text-lg text-blue-500">299 000 so’m</span>
+            </div>
+            <div className="mb-3">
+              <div>
+                <span className="text-sm break-words">Apple Airpods Pro</span>
+              </div>
+              <div>
+                <span className="text-sm break-words">
+                  simsiz quloqchin , Oq rangda
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-5">
+              <span className="text-sm py-3 text-gray-400">
+                1230 ta buyurtma
+              </span>
+            </div>
+            <div>
+              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+                Sotib olish
+              </button>
+              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+            </div>
           </div>
-          <div className="pt-4 pb-7 px-1 bg-white rounded-lg">
-            <Image src={ItemPhone} alt="" />
-            <span className="text-lg ml-5">Smartfonlar</span>
+          <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
+            <Image src={ItemLaptop} alt="" />
+            <div className="">
+              <span className="text-lg text-blue-500">299 000 so’m</span>
+            </div>
+            <div className="mb-3">
+              <div>
+                <span className="text-sm break-words">Apple Airpods Pro</span>
+              </div>
+              <div>
+                <span className="text-sm break-words">
+                  simsiz quloqchin , Oq rangda
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-5">
+              <span className="text-sm py-3 text-gray-400">
+                1230 ta buyurtma
+              </span>
+            </div>
+            <div>
+              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+                Sotib olish
+              </button>
+              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+            </div>
           </div>
-          <div className="pt-4 pb-7 px-1 bg-white rounded-lg">
-            <Image src={ItemPhone} alt="" />
-            <span className="text-lg ml-5">Smartfonlar</span>
+          <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
+            <Image src={ItemLaptop} alt="" />
+            <div className="">
+              <span className="text-lg text-blue-500">299 000 so’m</span>
+            </div>
+            <div className="mb-3">
+              <div>
+                <span className="text-sm break-words">Apple Airpods Pro</span>
+              </div>
+              <div>
+                <span className="text-sm break-words">
+                  simsiz quloqchin , Oq rangda
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-5">
+              <span className="text-sm py-3 text-gray-400">
+                1230 ta buyurtma
+              </span>
+            </div>
+            <div>
+              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+                Sotib olish
+              </button>
+              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+            </div>
           </div>
-          <div className="pt-4 pb-7 px-1 bg-white rounded-lg">
-            <Image src={ItemPhone} alt="" />
-            <span className="text-lg ml-5">Smartfonlar</span>
+          <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
+            <Image src={ItemLaptop} alt="" />
+            <div className="">
+              <span className="text-lg text-blue-500">299 000 so’m</span>
+            </div>
+            <div className="mb-3">
+              <div>
+                <span className="text-sm break-words">Apple Airpods Pro</span>
+              </div>
+              <div>
+                <span className="text-sm break-words">
+                  simsiz quloqchin , Oq rangda
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-5">
+              <span className="text-sm py-3 text-gray-400">
+                1230 ta buyurtma
+              </span>
+            </div>
+            <div>
+              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+                Sotib olish
+              </button>
+              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+            </div>
           </div>
-          <div className="pt-4 pb-7 px-1 bg-white rounded-lg">
-            <Image src={ItemPhone} alt="" />
-            <span className="text-lg ml-5">Smartfonlar</span>
+          <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
+            <Image src={ItemLaptop} alt="" />
+            <div className="">
+              <span className="text-lg text-blue-500">299 000 so’m</span>
+            </div>
+            <div className="mb-3">
+              <div>
+                <span className="text-sm break-words">Apple Airpods Pro</span>
+              </div>
+              <div>
+                <span className="text-sm break-words">
+                  simsiz quloqchin , Oq rangda
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-5">
+              <span className="text-sm py-3 text-gray-400">
+                1230 ta buyurtma
+              </span>
+            </div>
+            <div>
+              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+                Sotib olish
+              </button>
+              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+            </div>
           </div>
-          <div className="pt-4 pb-7 px-1 bg-white rounded-lg">
-            <Image src={ItemPhone} alt="" />
-            <span className="text-lg ml-5">Smartfonlar</span>
+          <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
+            <Image src={ItemLaptop} alt="" />
+            <div className="">
+              <span className="text-lg text-blue-500">299 000 so’m</span>
+            </div>
+            <div className="mb-3">
+              <div>
+                <span className="text-sm break-words">Apple Airpods Pro</span>
+              </div>
+              <div>
+                <span className="text-sm break-words">
+                  simsiz quloqchin , Oq rangda
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-5">
+              <span className="text-sm py-3 text-gray-400">
+                1230 ta buyurtma
+              </span>
+            </div>
+            <div>
+              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+                Sotib olish
+              </button>
+              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+            </div>
           </div>
-          <div className="pt-4 pb-7 px-1 bg-white rounded-lg">
-            <Image src={ItemPhone} alt="" />
-            <span className="text-lg ml-5">Smartfonlar</span>
+          <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
+            <Image src={ItemLaptop} alt="" />
+            <div className="">
+              <span className="text-lg text-blue-500">299 000 so’m</span>
+            </div>
+            <div className="mb-3">
+              <div>
+                <span className="text-sm break-words">Apple Airpods Pro</span>
+              </div>
+              <div>
+                <span className="text-sm break-words">
+                  simsiz quloqchin , Oq rangda
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-5">
+              <span className="text-sm py-3 text-gray-400">
+                1230 ta buyurtma
+              </span>
+            </div>
+            <div>
+              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+                Sotib olish
+              </button>
+              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+            </div>
           </div>
-          <div className="pt-4 pb-7 px-1 bg-white rounded-lg">
-            <Image src={ItemPhone} alt="" />
-            <span className="text-lg ml-5">Smartfonlar</span>
+          <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
+            <Image src={ItemLaptop} alt="" />
+            <div className="">
+              <span className="text-lg text-blue-500">299 000 so’m</span>
+            </div>
+            <div className="mb-3">
+              <div>
+                <span className="text-sm break-words">Apple Airpods Pro</span>
+              </div>
+              <div>
+                <span className="text-sm break-words">
+                  simsiz quloqchin , Oq rangda
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-5">
+              <span className="text-sm py-3 text-gray-400">
+                1230 ta buyurtma
+              </span>
+            </div>
+            <div>
+              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+                Sotib olish
+              </button>
+              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+            </div>
           </div>
-          <div className="pt-4 pb-7 px-1 bg-white rounded-lg">
-            <Image src={ItemPhone} alt="" />
-            <span className="text-lg ml-5">Smartfonlar</span>
+          <div className="pt-2 pb-7 px-5 bg-white rounded-lg">
+            <Image src={ItemLaptop} alt="" />
+            <div className="">
+              <span className="text-lg text-blue-500">299 000 so’m</span>
+            </div>
+            <div className="mb-3">
+              <div>
+                <span className="text-sm break-words">Apple Airpods Pro</span>
+              </div>
+              <div>
+                <span className="text-sm break-words">
+                  simsiz quloqchin , Oq rangda
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-5">
+              <span className="text-sm py-3 text-gray-400">
+                1230 ta buyurtma
+              </span>
+            </div>
+            <div>
+              <button className="bg-blue-600 py-2 px-3 rounded-lg">
+                Sotib olish
+              </button>
+              <ShoppingCartOutlinedIcon style={{ marginLeft: "55px" }} />
+            </div>
           </div>
         </div>
         <div className="mt-5 w-full text-center p-2 bg-white rounded-md hover:bg-slate-100">
           <button>Ko’proq ko’rish</button>
+        </div>
+      </div>
+      <div className="mt-7 mb-20">
+        <div className="mb-3">
+          <span className="text-xl font-semibold">Brendlar bo’yicha</span>
+        </div>
+        <div className="flex justify-center flex-wrap gap-4">
+          <div className="py-4 px-10 bg-white rounded-lg">
+            <Image src={ItemTrademark} alt="" width={120} height={120} />
+          </div>
+          <div className="py-4 px-10 bg-white rounded-lg">
+            <Image src={ItemTrademark} alt="" width={120} height={120} />
+          </div>
+          <div className="py-4 px-10 bg-white rounded-lg">
+            <Image src={ItemTrademark} alt="" width={120} height={120} />
+          </div>
+          <div className="py-4 px-10 bg-white rounded-lg">
+            <Image src={ItemTrademark} alt="" width={120} height={120} />
+          </div>
+          <div className="py-4 px-10 bg-white rounded-lg">
+            <Image src={ItemTrademark} alt="" width={120} height={120} />
+          </div>
+          <div className="py-4 px-10 bg-white rounded-lg">
+            <Image src={ItemTrademark} alt="" width={120} height={120} />
+          </div>
         </div>
       </div>
     </div>
